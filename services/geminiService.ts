@@ -6,7 +6,7 @@ export const getAIRecommendations = async (userInput: UserInput, results: Analys
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   
   const prompt = `
-    You are an expert Actuarial Consultant and Longevity Scientist for the "JeffreyWoo Health & Wealth Impact Planner".
+    You are an expert Actuarial Consultant and Longevity Scientist for the "JeffreyWoo Health & Wealth Planner".
     Your goal is to provide 4 highly specific, actionable, and mathematically-reasoned recommendations based on the user's unique profile.
 
     USER DATA OVERVIEW:
