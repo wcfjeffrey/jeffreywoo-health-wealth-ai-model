@@ -3,6 +3,7 @@
 </div>
 
 Not your typical health or finance app.  
+
 **JeffreyWoo Health & Wealth** is an AI-powered strategic assistant designed to help individuals make smarter, healthier, and more confident lifestyle and financial choices.
 
 ## ✨ What It Does
