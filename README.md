@@ -21,7 +21,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1afW3JvV1mSQjalLlrEOleC
 
 ## 📋 Sample
 
-<img src="assets/JeffreyWooHW1.PNG" alt="JeffreyWooHW1" width="6800" height="900" />
+<img src="assets/JeffreyWooHW1.PNG" alt="JeffreyWooHW1" width="1200" height="2000" />
 <img src="assets/JeffreyWooHW2.PNG" alt="JeffreyWooHW2" width="1200" height="900" />
 <img src="assets/JeffreyWooHW3.PNG" alt="JeffreyWooHW3" width="1200" height="900" />
 <img src="assets/JeffreyWooHW4.PNG" alt="JeffreyWooHW4" width="1200" height="900" />
