@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img src="assets/JeffreyWooHW.png" alt="JeffreyWooHWBanner" width="1200" height="900" />
 </div>
 
 # Run and deploy your AI Studio app
@@ -18,3 +18,13 @@ View your app in AI Studio: https://ai.studio/apps/drive/1afW3JvV1mSQjalLlrEOleC
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## 📋 Sample
+
+<img src="assets/JeffreyHW1.png" alt="JeffreyWooHW1" width="1200" height="900" />
+<img src="assets/JeffreyHW2.png" alt="JeffreyWooHW2" width="1200" height="900" />
+<img src="assets/JeffreyHW3.png" alt="JeffreyWooHW3" width="1200" height="900" />
+<img src="assets/JeffreyHW4.png" alt="JeffreyWooHW4" width="1200" height="900" />
+<img src="assets/JeffreyHW5.png" alt="JeffreyWooHW5" width="1200" height="900" />
+<img src="assets/JeffreyHW6.png" alt="JeffreyWooHW6" width="1200" height="900" />
+<img src="assets/JeffreyHW7.png" alt="JeffreyWooHW7" width="1200" height="900" />
