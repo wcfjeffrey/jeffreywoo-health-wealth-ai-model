@@ -2,11 +2,23 @@
 <img src="assets/JeffreyWooHW.PNG" alt="JeffreyWooHWBanner" width="1200" height="900" />
 </div>
 
-# Run and deploy your AI Studio app
+Not your typical health or finance app.  
+**JeffreyWoo Health & Wealth** is an AI-powered strategic assistant designed to help individuals make smarter, healthier, and more confident lifestyle and financial choices.
 
-This contains everything you need to run your app locally.
+## ✨ What It Does
+- 🩺 **Probabilistic Health Insights** — assess lifestyle, environment, and medical history to estimate health risks and lifespan impact  
+- 📊 **Wealth Planning Guidance** — generate personalized savings, investment, and retirement strategies aligned with health scenarios  
+- 🔍 **Scenario Simulation** — explore "what-if" models (e.g., quitting smoking, exercising weekly) to see combined health + wealth outcomes  
+- 📈 **Visualization Dashboards** — interactive charts for health risk, wealth projections, and dual impact analysis  
+- 🔒 **Secure & Compliant** — built with encrypted databases, GDPR/PDPO compliance, and reproducible workflows  
 
-View your app in AI Studio: https://ai.studio/apps/drive/1afW3JvV1mSQjalLlrEOleCK834vzDBes
+## 🚀 Why Choose JeffreyWoo Health & Wealth?
+Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes further — integrating actuarial science, medical research, socio-economic data, and financial planning models into one AI-powered platform. It helps you anticipate risks, plan smarter, and align your lifestyle with long-term financial security.
+
+## 📦 Getting Started
+
+
+Disclaimer: This application provides AI-driven insights for educational and informational purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on professional actuarial models, medical research, socio-economic data, and financial planning assumptions. **JeffreyWoo Health & Wealth** is not a substitute for professional medical diagnosis, treatment, or financial advice. Users should consult qualified healthcare providers and licensed financial advisors before making health or investment decisions.  
 
 ## Run Locally
 
