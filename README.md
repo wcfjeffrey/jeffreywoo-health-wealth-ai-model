@@ -21,10 +21,10 @@ View your app in AI Studio: https://ai.studio/apps/drive/1afW3JvV1mSQjalLlrEOleC
 
 ## 📋 Sample
 
-<img src="assets/JeffreyHW1.png" alt="JeffreyWooHW1" width="1200" height="900" />
-<img src="assets/JeffreyHW2.png" alt="JeffreyWooHW2" width="1200" height="900" />
-<img src="assets/JeffreyHW3.png" alt="JeffreyWooHW3" width="1200" height="900" />
-<img src="assets/JeffreyHW4.png" alt="JeffreyWooHW4" width="1200" height="900" />
-<img src="assets/JeffreyHW5.png" alt="JeffreyWooHW5" width="1200" height="900" />
-<img src="assets/JeffreyHW6.png" alt="JeffreyWooHW6" width="1200" height="900" />
-<img src="assets/JeffreyHW7.png" alt="JeffreyWooHW7" width="1200" height="900" />
+<img src="assets/JeffreyWooHW1.png" alt="JeffreyWooHW1" width="1200" height="900" />
+<img src="assets/JeffreyWooHW2.png" alt="JeffreyWooHW2" width="1200" height="900" />
+<img src="assets/JeffreyWooHW3.png" alt="JeffreyWooHW3" width="1200" height="900" />
+<img src="assets/JeffreyWooHW4.png" alt="JeffreyWooHW4" width="1200" height="900" />
+<img src="assets/JeffreyWooHW5.png" alt="JeffreyWooHW5" width="1200" height="900" />
+<img src="assets/JeffreyWooHW6.png" alt="JeffreyWooHW6" width="1200" height="900" />
+<img src="assets/JeffreyWooHW7.png" alt="JeffreyWooHW7" width="1200" height="900" />
