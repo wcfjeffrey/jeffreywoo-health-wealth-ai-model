@@ -18,7 +18,7 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 
 ## 📦 Getting Started
 1. Enter your personal data — demographics, lifestyle habits, medical/family history, environment, socio-economic, and financial details.  
-2. Let **JeffreyWoo Health & Wealth** analyze your profile using actuarial models, AI/ML, and financial simulations.  
+2. Let **JeffreyWoo Health & Wealth** analyze your profile using professional actuarial models, AI/ML, and financial simulations.  
 3. Explore your personalized dashboards — health risk radar, wealth projections, and scenario simulations.  
 4. Review AI-powered recommendations for healthier habits and smarter financial planning.  
 5. Export your insights as a PDF report to share with advisors or keep for personal tracking.
