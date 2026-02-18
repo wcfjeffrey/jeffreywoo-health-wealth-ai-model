@@ -17,7 +17,11 @@ Not your typical health or finance app.
 Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes further — integrating actuarial science, medical research, socio-economic data, and financial planning models into one AI-powered platform. It helps you anticipate risks, plan smarter, and align your lifestyle with long-term financial security.
 
 ## 📦 Getting Started
-
+1. Enter your personal data — demographics, lifestyle habits, medical/family history, environment, socio-economic, and financial details.  
+2. Let **JeffreyWoo Health & Wealth** analyze your profile using actuarial models, AI/ML, and financial simulations.  
+3. Explore your personalized dashboards — health risk radar, wealth projections, and scenario simulations.  
+4. Review AI-powered recommendations for healthier habits and smarter financial planning.  
+5. Export your insights as a PDF report to share with advisors or keep for personal tracking.
 
 Disclaimer: This application provides AI-driven insights for educational and informational purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on professional actuarial models, medical research, socio-economic data, and financial planning assumptions. **JeffreyWoo Health & Wealth** is not a substitute for professional medical diagnosis, treatment, or financial advice. Users should consult qualified healthcare providers and licensed financial advisors before making health or investment decisions.  
 
