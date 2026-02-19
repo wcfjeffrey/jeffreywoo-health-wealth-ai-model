@@ -36,6 +36,7 @@ export const calculateLongevityShift = (input: UserInput): number => {
 
   // 6. Expanded Dietary Patterns
   const dietShifts: Record<DietaryPattern, number> = {
+    'No Preference': 0.0,
     'Mediterranean': 3.0,
     'DASH': 2.5,
     'Vegan': 2.0,
