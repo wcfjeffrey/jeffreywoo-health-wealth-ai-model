@@ -49,7 +49,6 @@ export const calculateLongevityShift = (input: UserInput): number => {
     'Flexitarian': 1.5,
     'Carnivore': -2.0,
     'Whole30': 1.0,
-    'Other': 0.0
   };
   shift += dietShifts[input.dietaryPattern] || 0;
 
