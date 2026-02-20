@@ -7,19 +7,19 @@ Not your typical health or finance app!
 **JeffreyWoo Health & Wealth** is an AI-powered health and wealth planner designed to help individuals make smarter, healthier, and more confident lifestyle and financial choices.
 
 ## ✨ What It Does
-• 🩺 **Probabilistic Health Insights** — assess lifestyle, environment, and medical history to estimate health risks and lifespan impact  
-• 📊 **Wealth Planning Guidance** — generate personalized savings, investment, and retirement strategies aligned with health scenarios  
-• 🔍 **Scenario Simulation** — explore "what-if" models (e.g., quitting smoking, exercising weekly) to see combined health + wealth outcomes  
-• 📈 **Visualization Dashboards** — interactive charts for health risk, wealth projections, and dual impact analysis  
-• 🔒 **Secure & Compliant** — built with encrypted databases, GDPR/PDPO compliance, and reproducible workflows  
+- 🩺 **Probabilistic Health Insights** — assess lifestyle, environment, and medical history to estimate health risks and lifespan impact  
+- 📊 **Wealth Planning Guidance** — generate personalized savings, investment, and retirement strategies aligned with health scenarios  
+- 🔍 **Scenario Simulation** — explore "what-if" models (e.g., quitting smoking, exercising weekly) to see combined health + wealth outcomes  
+- 📈 **Visualization Dashboards** — interactive charts for health risk, wealth projections, and dual impact analysis  
+- 🔒 **Secure & Compliant** — built with encrypted databases, GDPR/PDPO compliance, and reproducible workflows  
 
 ## 🚀 Why Choose JeffreyWoo Health & Wealth?
 Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes further — integrating actuarial science, medical research, socio-economic data, and financial planning models into one AI-powered platform. It helps you anticipate risks, plan smarter, and align your lifestyle with long-term financial security.
 
 ## 🤖 Tech Stack
-• **Language** — TypeScript  
-• **Framework** — React (with Vite as the build tool)  
-• **UI** — Standard React components
+- **Language** — TypeScript  
+- **Framework** — React (with Vite as the build tool)  
+- **UI** — Standard React components
 
 ## 📦 Getting Started
 1. Enter your personal data — demographics, lifestyle habits, medical/family history, environment, socio-economic, and financial details.  
