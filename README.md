@@ -28,7 +28,7 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 4. Review AI-powered recommendations for healthier habits and smarter financial planning.  
 5. Export your insights as a PDF report to share with advisors or keep for personal tracking.
 
-## ⌛ Main Lifespan Impact Factor Summary
+## ⌛ Summary of Main Lifespan Impact Factors
 <img src="assets/JeffreyWooHW0.PNG" alt="JeffreyWooHW0" width="1200" height="2800" />
 
 ## ⚖️ Disclaimer
