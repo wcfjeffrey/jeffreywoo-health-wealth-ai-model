@@ -18,11 +18,9 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 
 ## 🤖 Tech Stack
 
-• 	**Language** — TypeScript
-
-• 	**Framework** — React (with Vite as the build tool)
-
-• 	**UI** — Standard React components
+• **Language** — TypeScript  
+• **Framework** — React (with Vite as the build tool)
+• **UI** — Standard React components
 
 ## 📦 Getting Started
 1. Enter your personal data — demographics, lifestyle habits, medical/family history, environment, socio-economic, and financial details.  
