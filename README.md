@@ -29,7 +29,7 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 5. Export your insights as a PDF report to share with advisors or keep for personal tracking.
 
 ## ⌛ Main Lifespan Impact Factor Summary
-<img src="assets/JeffreyWooHW0.png" alt="JeffreyWooHW1" width="1200" height="2800" />
+<img src="assets/JeffreyWooHW0.PNG" alt="JeffreyWooHW0" width="1200" height="2800" />
 
 ## ⚖️ Disclaimer
 **JeffreyWoo Health & Wealth** provides AI-driven insights for educational and informational purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on professional actuarial models, medical research, socio-economic data, and financial planning assumptions. It is not a substitute for actuaries, professional medical diagnosis, treatment, or financial advice. Users should consult qualified healthcare providers and licensed financial advisors before making health or investment decisions.  
