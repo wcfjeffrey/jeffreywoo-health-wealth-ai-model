@@ -22,7 +22,7 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 - **UI** — Standard React components
 
 ## 💡 Finance Transformation Impact
-This project exemplifies how AI reshapes finance by:
+This project exemplifies how AI reshapes finance by:  
 • Driving transformation in personal finance & wealth planning through AI integration.  
 • Bridging cross‑disciplinary expertise (actuarial science, medical research & financial planning) into a user‑centric financial intelligence platform.  
 • Enhancing decision‑making with dashboards & simulations that translate actuarial & financial data into actionable insights.  
