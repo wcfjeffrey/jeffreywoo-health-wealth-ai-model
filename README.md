@@ -23,16 +23,16 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 
 ## 💡 Finance Transformation Impact
 This project exemplifies how AI reshapes finance by:
-• Driving transformation in personal finance & wealth planning through AI integration.
-• Bridging cross‑disciplinary expertise (actuarial science, medical research & financial planning) into a user‑centric financial intelligence platform.
-• Enhancing decision‑making with dashboards & simulations that translate actuarial & financial data into actionable insights.
+• Driving transformation in personal finance & wealth planning through AI integration.  
+• Bridging cross‑disciplinary expertise (actuarial science, medical research & financial planning) into a user‑centric financial intelligence platform.  
+• Enhancing decision‑making with dashboards & simulations that translate actuarial & financial data into actionable insights.  
 • Promoting innovation with emphasis on data privacy, ethical positioning & financial modeling.
 
 ## ⭐ Finance Skills Strengthened
-• Full‑stack architecture for AI‑driven financial applications.
-• Secure handling of sensitive financial & health data, aligned with compliance & audit standards.
-• AI model integration into financial workflows (budgeting, retirement planning & risk management).
-• File parsing & structured data transformation for accounting reports, actuarial tables & financial statements.
+• Full‑stack architecture for AI‑driven financial applications.  
+• Secure handling of sensitive financial & health data, aligned with compliance & audit standards.  
+• AI model integration into financial workflows (budgeting, retirement planning & risk management).    
+• File parsing & structured data transformation for accounting reports, actuarial tables & financial statements.  
 • Interactive dashboards with React (TypeScript + Vite) to support scenario‑based financial simulations & wealth projections.
 
 ## 📦 Getting Started
