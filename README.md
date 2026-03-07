@@ -54,7 +54,7 @@ This project exemplifies how AI reshapes finance by:
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) file to your API key after you create [.env.local](.env.local) file
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) file to your Gemini API key after you create [.env.local](.env.local) file
 3. Run the app:
    `npm run dev`
 
