@@ -23,7 +23,7 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 - **Runtime** — Node.js
 
 ## 📉 Actuarial Models Applied
-This app integrates actuarial science models into AI-driven health and wealth planning. Built with TypeScript, React, Vite, and Google’s Gemini API, it combines demographic, lifestyle, medical, and socio-economic data to estimate lifespan impact, morbidity risks, and financial sustainability:  
+This app integrates actuarial science models into AI-driven health and wealth planning. It combines demographic, lifestyle, medical, and socio-economic data to estimate lifespan impact, morbidity risks, and financial sustainability:  
 • 	**Gompertz-Makeham Law of Mortality**  — Used to model age-dependent mortality rates, capturing both natural aging effects and external risk factors. This allows the app to forecast survival probabilities under different lifestyle scenarios.  
 • 	**Life Tables & Survival Analysis** — Standard actuarial tables are applied to estimate expected lifespan and conditional survival probabilities, forming the foundation for personalized health projections.  
 • 	**Markov Health State Models** — The app simulates transitions between health states (healthy → chronic illness → disability → death), enabling forecasts of medical costs and wealth depletion.  
