@@ -17,9 +17,10 @@ Not your typical health or finance app!
 Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes further — integrating actuarial science, medical research, socio-economic data, and financial planning models into one AI-powered platform. It helps you anticipate risks, plan smarter, and align your lifestyle with long-term financial security.
 
 ## 🤖 Tech Stack
-- **Language** — TypeScript  
+- **Language** — TypeScript, HTML  
 - **Framework** — React (with Vite as the build tool)  
 - **UI** — Standard React components
+- **Runtime** — Node.js
 
 ## 💡 Finance Transformation Impact
 This project exemplifies how AI reshapes finance by:  
