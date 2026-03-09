@@ -43,6 +43,14 @@ This project exemplifies how AI reshapes finance by:
 4. Review AI-powered recommendations for healthier habits and smarter financial planning.  
 5. Export your insights as a PDF report to share with advisors or keep for personal tracking.
 
+## 📉 Actuarial Models Applied
+• 	Gompertz-Makeham Law of Mortality  — Used to model age-dependent mortality rates, capturing both natural aging effects and external risk factors. This allows the app to forecast survival probabilities under different lifestyle scenarios.  
+• 	Life Tables & Survival Analysis — Standard actuarial tables are applied to estimate expected lifespan and conditional survival probabilities, forming the foundation for personalized health projections.  
+• 	Markov Health State Models — The app simulates transitions between health states (healthy → chronic illness → disability → death), enabling forecasts of medical costs and wealth depletion.  
+• 	Stochastic Simulation (Monte Carlo) — Applied to investment returns, medical inflation, and longevity risk, ensuring wealth planning accounts for uncertainty and variability.  
+• 	Present Value & Discounting Models — Actuarial discounting principles are embedded to evaluate whether projected wealth can sustain future healthcare and retirement expenses.  
+• 	Risk Pooling & Classification Concepts — Borrowing from insurance underwriting, the app segments users into health/wealth profiles, tailoring recommendations for preventive care and financial resilience
+
 ## ⌛ Summary of Main Lifespan Impact Factors
 <img src="assets/JeffreyWooHW0.PNG" alt="JeffreyWooHW0" width="1200" height="2800" />
 
