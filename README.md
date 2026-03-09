@@ -19,7 +19,7 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 ## 🤖 Tech Stack
 - **Language** — TypeScript, HTML  
 - **Framework** — React (with Vite as the build tool)  
-- **UI** — Standard React components
+- **UI** — Standard React components, styled via TSX
 - **Runtime** — Node.js
 
 ## 💡 Finance Transformation Impact
