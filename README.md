@@ -24,26 +24,26 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 
 ## 📉 Actuarial Models Applied
 This app integrates actuarial science models into AI-driven health and wealth planning. It combines demographic, lifestyle, medical, and socio-economic data to estimate lifespan impact, morbidity risks, and financial sustainability:  
-• 	**Gompertz-Makeham Law of Mortality**  — Used to model age-dependent mortality rates, capturing both natural aging effects and external risk factors. Gompertz function (age-dependent) represents the exponential increase in mortality with age (senescence); whereas Makeham term (age-independent) represents constant background mortality from external causes, such as accidents or infections. This allows the app to forecast survival probabilities under different lifestyle scenarios.   
-• 	**Life Tables & Survival Analysis** — Standard actuarial tables are applied to estimate expected lifespan and conditional survival probabilities, forming the foundation for personalized health projections.  
-• 	**Markov Health State Models** — The app simulates transitions between health states (healthy → chronic illness → disability → death), enabling forecasts of medical costs and wealth depletion.  
-• 	**Stochastic Simulation (Monte Carlo)** — Applied to investment returns, medical inflation, and longevity risk, ensuring wealth planning accounts for uncertainty and variability.  
-• 	**Present Value & Discounting Models** — Actuarial discounting principles are embedded to evaluate whether projected wealth can sustain future healthcare and retirement expenses.  
-• 	**Risk Pooling & Classification Concepts** — Borrowing from insurance underwriting, the app segments users into health/wealth profiles, tailoring recommendations for preventive care and financial resilience.
+- **Gompertz-Makeham Law of Mortality**  — Used to model age-dependent mortality rates, capturing both natural aging effects and external risk factors. Gompertz function (age-dependent) represents the exponential increase in mortality with age (senescence); whereas Makeham term (age-independent) represents constant background mortality from external causes, such as accidents or infections. This allows the app to forecast survival probabilities under different lifestyle scenarios.   
+- **Life Tables & Survival Analysis** — Standard actuarial tables are applied to estimate expected lifespan and conditional survival probabilities, forming the foundation for personalized health projections.  
+- **Markov Health State Models** — The app simulates transitions between health states (healthy → chronic illness → disability → death), enabling forecasts of medical costs and wealth depletion.  
+- **Stochastic Simulation (Monte Carlo)** — Applied to investment returns, medical inflation, and longevity risk, ensuring wealth planning accounts for uncertainty and variability.  
+- **Present Value & Discounting Models** — Actuarial discounting principles are embedded to evaluate whether projected wealth can sustain future healthcare and retirement expenses.  
+- **Risk Pooling & Classification Concepts** — Borrowing from insurance underwriting, the app segments users into health/wealth profiles, tailoring recommendations for preventive care and financial resilience.
 
 ## 💡 Finance Transformation Impact
 This project exemplifies how AI reshapes finance by:  
-• Driving transformation in personal finance & wealth planning through AI integration.  
-• Bridging cross‑disciplinary expertise (actuarial science, medical research & financial planning) into a user‑centric financial intelligence platform.  
-• Enhancing decision‑making with dashboards & simulations that translate actuarial & financial data into actionable insights.  
-• Promoting innovation with emphasis on data privacy, ethical positioning & financial modeling.
+- Accelerated digital transformation in personal finance and wealth planning by integrating AI to deliver predictive insights, scenario modeling, and automated financial guidance.  
+- Unified actuarial science, medical research, and financial planning into a user‑centric intelligence platform that elevates risk assessment, long‑term planning, and data‑driven financial decisions.  
+- Enhanced decision‑making through interactive dashboards and simulations that convert complex actuarial and financial data into clear, actionable insights for strategic planning.  
+- Advanced innovation in financial modeling with strong emphasis on data privacy, ethical AI practices, and responsible analytics to support compliant and trustworthy financial decision‑making.
 
 ## ⭐ Finance Skills Strengthened
-• Full‑stack architecture for AI‑driven financial applications.  
-• Secure handling of sensitive financial & health data, aligned with compliance & audit standards.  
-• AI model integration into financial workflows (budgeting, retirement planning & risk management).    
-• File parsing & structured data transformation for accounting reports, actuarial tables & financial statements.  
-• Interactive dashboards with React (TypeScript + Vite) to support scenario‑based financial simulations & wealth projections.
+- Full‑stack architecture for AI‑driven financial applications.  
+- Secure handling of sensitive financial & health data, aligned with compliance & audit standards.  
+- AI model integration into financial workflows (budgeting, retirement planning & risk management).    
+- File parsing & structured data transformation for accounting reports, actuarial tables & financial statements.  
+- Interactive dashboards with React (TypeScript + Vite) to support scenario‑based financial simulations & wealth projections.
 
 ## 📦 Getting Started
 1. Enter your personal data — demographics, lifestyle habits, medical/family history, environment, socio-economic, and financial details.  
