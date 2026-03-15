@@ -33,10 +33,10 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 
 ## 💡 Finance Transformation Impact
 This project exemplifies how AI reshapes finance by:  
-- Accelerated digital transformation in personal finance and wealth planning by integrating AI to deliver predictive insights, scenario modeling, and automated financial guidance.  
-- Unified actuarial science, medical research, and financial planning into a user‑centric intelligence platform that elevates risk assessment, long‑term planning, and data‑driven financial decisions.  
-- Enhanced decision‑making through interactive dashboards and simulations that convert complex actuarial and financial data into clear, actionable insights for strategic planning.  
-- Advanced innovation in financial modeling with strong emphasis on data privacy, ethical AI practices, and responsible analytics to support compliant and trustworthy financial decision‑making.
+- Driving digital transformation in personal finance and wealth planning by integrating AI to deliver predictive insights, scenario modeling, and automated financial guidance.  
+- Unifying actuarial science, medical research, and financial planning into a user‑centric intelligence platform that elevates risk assessment, long‑term planning, and data‑driven financial decisions.  
+- Enhancing decision‑making through interactive dashboards and simulations that convert complex actuarial and financial data into clear, actionable insights for strategic planning.  
+- Advancing innovation in financial modeling with strong emphasis on data privacy, ethical AI practices, and responsible analytics to support compliant and trustworthy financial decision‑making.
 
 ## ⭐ Finance Skills Strengthened
 - Full‑stack architecture for AI‑driven financial applications.  
