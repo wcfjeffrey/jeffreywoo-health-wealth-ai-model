@@ -37,6 +37,7 @@ This project exemplifies how AI reshapes finance by:
 - Unifying actuarial science, medical research, and financial planning into a user‑centric intelligence platform that elevates risk assessment, long‑term planning, and data‑driven financial decisions.  
 - Enhancing decision‑making through interactive dashboards and simulations that convert complex actuarial and financial data into clear, actionable insights for strategic planning.  
 - Advancing innovation in financial modeling with strong emphasis on data privacy, ethical AI practices, and responsible analytics to support compliant and trustworthy financial decision‑making.  
+
 **Note:** The core logic of the personal longevity risk model established in this project can also be applied to the actuarial assessment of corporate pension liabilities or insurance cost analysis.
 
 ## ⭐ Finance Skills Strengthened
