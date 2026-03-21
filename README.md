@@ -10,7 +10,7 @@ Not your typical health or finance app!
 
 ## ✨ What It Does
 - 🩺 **Probabilistic Health Insights** — assess lifestyle, environment, and medical history to estimate health risks and lifespan impact  
-- 📊 **Wealth Planning Guidance** — generate personalized savings, investment, and retirement strategies aligned with health scenarios  
+- 💵 **Wealth Planning Guidance** — generate personalized savings, investment, and retirement strategies aligned with health scenarios  
 - 🔍 **Scenario Simulation** — explore "what-if" models (e.g., quitting smoking, exercising weekly) to see combined health + wealth outcomes  
 - 📈 **Visualization Dashboards** — interactive charts for health risk, wealth projections, and dual impact analysis  
 - 🔒 **Secure & Compliant** — built with encrypted databases, GDPR/PDPO compliance, and reproducible workflows  
