@@ -2,6 +2,8 @@
 <img src="assets/JeffreyWooHW.PNG" alt="JeffreyWooHWBanner" width="1200" height="900" />
 </div>
 
+## 📊 Overview
+
 Not your typical health or finance app!  
 
 **JeffreyWoo Health & Wealth** is an AI-powered health and wealth planner designed to help individuals make smarter, healthier, and more confident lifestyle and financial choices.
