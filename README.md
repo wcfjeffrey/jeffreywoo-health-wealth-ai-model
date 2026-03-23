@@ -10,7 +10,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff)
 
-Not your typical health or finance app!  
+> **Not your typical health or finance app!**
 
 **JeffreyWoo Health & Wealth** is an AI-powered health and wealth planner designed to help individuals make smarter, healthier, and more confident lifestyle and financial choices.
 
