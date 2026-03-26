@@ -21,6 +21,15 @@
 - 📈 **Visualization Dashboards** — interactive charts for health risk, wealth projections, and dual impact analysis  
 - 🔒 **Secure & Compliant** — built with encrypted databases, GDPR/PDPO compliance, and reproducible workflows  
 
+## 💡 Finance Transformation Impact
+This project exemplifies how AI reshapes finance by:  
+- Driving digital transformation in personal finance and wealth planning by integrating AI to deliver predictive insights, scenario modeling, and automated financial guidance.  
+- Unifying actuarial science, medical research, and financial planning into a user‑centric intelligence platform that elevates risk assessment, long‑term planning, and data‑driven financial decisions.  
+- Enhancing decision‑making through interactive dashboards and simulations that convert complex actuarial and financial data into clear, actionable insights for strategic planning.  
+- Advancing innovation in financial modeling with strong emphasis on data privacy, ethical AI practices, and responsible analytics to support compliant and trustworthy financial decision‑making.  
+
+**Note:** The core logic of the personal longevity risk model established in this project can also be applied to the actuarial assessment of corporate pension liabilities or insurance cost analysis.
+
 ## 🚀 Why Choose JeffreyWoo Health & Wealth?
 Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes further — integrating actuarial science, medical research, socio-economic data, and financial planning models into one AI-powered platform. It helps you anticipate risks, plan smarter, and align your lifestyle with long-term financial security.
 
@@ -32,15 +41,6 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 - **Stochastic Simulation (Monte Carlo)** — Applied to investment returns, medical inflation, and longevity risk, ensuring wealth planning accounts for uncertainty and variability.  
 - **Present Value & Discounting Models** — Actuarial discounting principles are embedded to evaluate whether projected wealth can sustain future healthcare and retirement expenses.  
 - **Risk Pooling & Classification Concepts** — Borrowing from insurance underwriting, the app segments users into health/wealth profiles, tailoring recommendations for preventive care and financial resilience.
-
-## 💡 Finance Transformation Impact
-This project exemplifies how AI reshapes finance by:  
-- Driving digital transformation in personal finance and wealth planning by integrating AI to deliver predictive insights, scenario modeling, and automated financial guidance.  
-- Unifying actuarial science, medical research, and financial planning into a user‑centric intelligence platform that elevates risk assessment, long‑term planning, and data‑driven financial decisions.  
-- Enhancing decision‑making through interactive dashboards and simulations that convert complex actuarial and financial data into clear, actionable insights for strategic planning.  
-- Advancing innovation in financial modeling with strong emphasis on data privacy, ethical AI practices, and responsible analytics to support compliant and trustworthy financial decision‑making.  
-
-**Note:** The core logic of the personal longevity risk model established in this project can also be applied to the actuarial assessment of corporate pension liabilities or insurance cost analysis.
 
 ## ⭐ Finance Skills Strengthened
 - Full‑stack architecture for AI‑driven financial applications.  
