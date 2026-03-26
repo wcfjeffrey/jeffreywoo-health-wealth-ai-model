@@ -24,12 +24,6 @@
 ## 🚀 Why Choose JeffreyWoo Health & Wealth?
 Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes further — integrating actuarial science, medical research, socio-economic data, and financial planning models into one AI-powered platform. It helps you anticipate risks, plan smarter, and align your lifestyle with long-term financial security.
 
-## 🤖 Tech Stack
-- **Language** — TypeScript, HTML  
-- **Framework** — React (with Vite as the build tool)  
-- **UI** — Standard React components, styled via TSX
-- **Runtime** — Node.js
-
 ## 📉 Actuarial Models Applied
 This app integrates actuarial science models into AI-driven health and wealth planning. It combines demographic, lifestyle, medical, and socio-economic data to estimate lifespan impact, morbidity risks, and financial sustainability:  
 - **Gompertz-Makeham Law of Mortality**  — Used to model age-dependent mortality rates, capturing both natural aging effects and external risk factors. Gompertz function (age-dependent) represents the exponential increase in mortality with age (senescence); whereas Makeham term (age-independent) represents constant background mortality from external causes, such as accidents or infections. This allows the app to forecast survival probabilities under different lifestyle scenarios.   
@@ -55,6 +49,12 @@ This project exemplifies how AI reshapes finance by:
 - File parsing & structured data transformation for accounting reports, actuarial tables & financial statements.  
 - Interactive dashboards with React (TypeScript + Vite) to support scenario‑based financial simulations & wealth projections.
 
+## 🤖 Tech Stack
+- **Language** — TypeScript, HTML  
+- **Framework** — React (with Vite as the build tool)  
+- **UI** — Standard React components, styled via TSX
+- **Runtime** — Node.js
+
 ## 📦 Getting Started
 1. Enter your personal data — demographics, lifestyle habits, medical/family history, environment, socio-economic, and financial details.  
 2. Let **JeffreyWoo Health & Wealth** analyze your profile using professional actuarial models, AI/ML, and financial simulations.  
@@ -64,9 +64,6 @@ This project exemplifies how AI reshapes finance by:
 
 ## ⌛ Summary of Main Lifespan Impact Factors
 <img src="assets/JeffreyWooHW0.PNG" alt="JeffreyWooHW0" width="1200" height="2800" />
-
-## ⚖️ Disclaimer
-**JeffreyWoo Health & Wealth** provides AI-driven insights for educational and informational purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on professional actuarial models, medical research, socio-economic data, and financial planning assumptions. It is not a substitute for actuaries, professional medical diagnosis, treatment, or financial advice. Users should consult qualified actuaries, healthcare providers, financial advisors, or insurers before making health or investment decisions or buying insurance.  
 
 ## ⚙️ Run Locally
 
@@ -87,6 +84,9 @@ This project exemplifies how AI reshapes finance by:
 <img src="assets/JeffreyWooHW5.PNG" alt="JeffreyWooHW5" width="1200" height="900" />
 <img src="assets/JeffreyWooHW6.PNG" alt="JeffreyWooHW6" width="1200" height="900" />
 <img src="assets/JeffreyWooHW7.PNG" alt="JeffreyWooHW7" width="1200" height="900" />
+
+## ⚖️ Disclaimer
+**JeffreyWoo Health & Wealth** provides AI-driven insights for educational and informational purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on professional actuarial models, medical research, socio-economic data, and financial planning assumptions. It is not a substitute for actuaries, professional medical diagnosis, treatment, or financial advice. Users should consult qualified actuaries, healthcare providers, financial advisors, or insurers before making health or investment decisions or buying insurance.  
 
 ## 👤 About the Author
 Jeffrey Woo — Finance Manager | Strategic FP&A, AI Automation & Cost Optimization | MBA | FCCA | CTA | FTIHK | SAP Financial Accounting (FI) Certified Application Associate | Xero Advisor Certified
