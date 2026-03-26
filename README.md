@@ -42,6 +42,9 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 - **Present Value & Discounting Models** — Actuarial discounting principles are embedded to evaluate whether projected wealth can sustain future healthcare and retirement expenses.  
 - **Risk Pooling & Classification Concepts** — Borrowing from insurance underwriting, the app segments users into health/wealth profiles, tailoring recommendations for preventive care and financial resilience.
 
+## ⌛ Summary of Main Lifespan Impact Factors
+<img src="assets/JeffreyWooHW0.PNG" alt="JeffreyWooHW0" width="1200" height="2800" />
+
 ## ⭐ Finance Skills Strengthened
 - Full‑stack architecture for AI‑driven financial applications.  
 - Secure handling of sensitive financial & health data, aligned with compliance & audit standards.  
@@ -61,9 +64,6 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 3. Explore your personalized dashboards — health risk radar, wealth projections, and scenario simulations.  
 4. Review AI-powered recommendations for healthier habits and smarter financial planning.  
 5. Export your insights as a PDF report to share with advisors or keep for personal tracking.
-
-## ⌛ Summary of Main Lifespan Impact Factors
-<img src="assets/JeffreyWooHW0.PNG" alt="JeffreyWooHW0" width="1200" height="2800" />
 
 ## ⚙️ Run Locally
 
