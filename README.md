@@ -86,11 +86,11 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 <img src="assets/JeffreyWooHW7.PNG" alt="JeffreyWooHW7" width="1200" height="900" />
 
 ## ⚖️ Disclaimer
-**JeffreyWoo Health & Wealth** provides AI-driven insights for informational, educational, and demonstration purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on professional actuarial models, medical research, socio-economic data, and financial planning assumptions. It is not a substitute for actuaries, professional medical diagnosis, treatment, health, financial, investment, or legal advice.
+**JeffreyWoo Health & Wealth** provides AI-driven insights for informational, educational, and demonstration purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on professional actuarial models, medical research, socio-economic data, and financial planning assumptions.
 
-**Health‑related information:** AI‑generated insights are not a substitute for professional medical judgment. Always consult a qualified healthcare professional before making any health decisions.
+**Health‑related information:** AI‑generated insights are not substitutes for professional actuarial, medical, or health judgment. Always consult a qualified healthcare professional before making any health decisions.
 
-**Financial‑related information:** AI‑generated predictions and analyses are not guarantees of future performance. Past performance does not indicate future results.
+**Financial‑related information:** AI‑generated insights are not substitutes for professional financial, investment, or legal advice. AI‑generated predictions and analyses are not guarantees of future performance. Past performance does not indicate future results.
 
 Users should consult qualified actuaries, healthcare providers, financial advisors, or insurers before making health or investment decisions or buying insurance. If you have a medical emergency, contact local emergency services immediately. The developer assumes no liability for any losses, injuries, or damages arising from the use of this software.
 
