@@ -53,15 +53,17 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 ## 📚 Data Sources
 | Source	| Data Used | 
 |---------|----------|
-| China Life Insurance Mortality Table (CL2023)	| Baseline mortality rates| 
-| National Health Commission of China (2025)	| Life expectancy: 79.25 years| 
-| National Bureau of Statistics of China (2024)	| Gender-specific longevity| 
-| World Health Organization	| Dietary and lifestyle risk factors| 
-| Society of Actuaries (SOA)	| Relative risk methodology| 
+| China Life Insurance Mortality Table (2023)	| Baseline mortality rates| 
+| National Health Commission of China (2025)	| Average life expectancy: 79.25 years (both sexes combined)| 
+| National Bureau of Statistics of China (2024)	| Gender-specific longevity: Male ~77.5 years, Female ~81.5 years| 
+| Society of Actuaries (SOA) (2020-2023)	| Relative risk methodology for mortality multipliers; Valuation Basic Table (VBT) framework; risk factor quantification| 
+| World Health Organization (WHO) (2024-2025)	| Dietary pattern, lifestyle and behavioral risk factors; Global life expectancy benchmarks (post-COVID decline to 71.4 years)| 
+
+*Note: The SOA VBT framework and WHO risk factors inform the relative risk calculations, but full table imports (e.g., CSO, VBT detailed tables) are planned for future releases.*
 
 ## ⭐ Finance Skills Strengthened
 - Full‑stack architecture for AI‑driven financial applications.  
-- Secure handling of sensitive financial & health data, aligned with compliance & audit standards.  
+- Secure handling of sensitive financial & health data, aligned with GDPR/PDPO compliance & audit standards.  
 - AI model integration into financial workflows (budgeting, retirement planning & risk management).    
 - File parsing & structured data transformation for accounting reports, actuarial tables & financial statements.  
 - Interactive dashboards with React (TypeScript + Vite) to support scenario‑based financial simulations & wealth projections.
