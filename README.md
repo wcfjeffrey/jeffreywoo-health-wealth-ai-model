@@ -53,13 +53,17 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 ## 📚 Data Sources
 | Source	| Data Used | 
 |---------|----------|
-| China Life Insurance Mortality Table (2023)	| Baseline mortality rates| 
+| China Life Insurance Mortality Table (2023)	| Baseline mortality rates; 10-year mortality probabilities by age; Age-specific remaining life expectancy| 
 | National Health Commission of China (2025)	| Average life expectancy: 79.25 years (both sexes combined)| 
 | National Bureau of Statistics of China (2024)	| Gender-specific longevity: Male ~77.5 years, Female ~81.5 years| 
 | Society of Actuaries (SOA) (2020-2023)	| Relative risk methodology for mortality multipliers; Valuation Basic Table (VBT) framework; risk factor quantification| 
-| World Health Organization (WHO) (2024-2025)	| Dietary pattern, lifestyle and behavioral risk factors; Global life expectancy benchmarks (post-COVID decline to 71.4 years)| 
+| World Health Organization (WHO) (2024-2025)	| Dietary pattern, lifestyle and behavioral risk factors; Air quality guidelines (AQI conversion); Pollution risk multipliers; Global life expectancy benchmarks (post-COVID decline to 71.4 years)| 
+| Shanghai Composite Index / CSI 300 (1990-2025 / 2005-2025)	| Historical market returns for China| 
+| National Bureau of Statistics of China (NBS) (2000-2024)	| Historical CPI inflation data (avg. ~2.3%)| 	 
+| China Health and Nutrition Survey (CHNS) (multiple survey years)	|Dietary pattern modifiers for Chinese population|
+| Chinese Government Policy (2024) (2025-2035 implementation) |Statutory retirement age extension|	
 
-*Note: The SOA VBT framework and WHO risk factors inform the relative risk calculations, but full table imports (e.g., CSO, VBT detailed tables) are planned for future releases.*
+*Note: The SOA VBT framework and WHO risk factors inform the relative risk calculations, but full table imports (e.g., CSO, VBT detailed tables) are planned for future releases. All values are calibrated for Mainland China users and are updated as of 2025-2026.*
 
 ## ⭐ Finance Skills Strengthened
 - Full‑stack architecture for AI‑driven financial applications.  
