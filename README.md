@@ -36,14 +36,28 @@ Most apps focus only on health or finance. **JeffreyWoo Health & Wealth** goes f
 ## 📉 Actuarial Models Applied
 This app integrates actuarial science models into AI-driven health and wealth planning. It combines demographic, lifestyle, medical, and socio-economic data to estimate lifespan impact, morbidity risks, and financial sustainability:  
 - **Gompertz-Makeham Law of Mortality**  — Used to model age-dependent mortality rates, capturing both natural aging effects and external risk factors. Gompertz function (age-dependent) represents the exponential increase in mortality with age (senescence); whereas Makeham term (age-independent) represents constant background mortality from external causes, such as accidents or infections. This allows the app to forecast survival probabilities under different lifestyle scenarios.   
-- **Life Tables & Survival Analysis** — Standard actuarial tables are applied to estimate expected lifespan and conditional survival probabilities, forming the foundation for personalized health projections.  
-- **Markov Health State Models** — The app simulates transitions between health states (healthy → chronic illness → disability → death), enabling forecasts of medical costs and wealth depletion.  
-- **Stochastic Simulation (Monte Carlo)** — Applied to investment returns, medical inflation, and longevity risk, ensuring wealth planning accounts for uncertainty and variability.  
-- **Present Value & Discounting Models** — Actuarial discounting principles are embedded to evaluate whether projected wealth can sustain future healthcare and retirement expenses.  
-- **Risk Pooling & Classification Concepts** — Borrowing from insurance underwriting, the app segments users into health/wealth profiles, tailoring recommendations for preventive care and financial resilience.
+- **Life Tables & Survival Analysis** — Standard actuarial tables are applied to estimate expected lifespan and conditional survival probabilities, forming the foundation for personalized health projections.
+*Note: Data sources: China Life Insurance Mortality Table (CL2023), National Health Commission, National Bureau of Statistics*
+- **Markov Health State Models** — The app simulates transitions between health states (healthy → chronic illness → disability → death), enabling forecasts of medical costs, healthcare utilization patterns, and wealth depletion.  
+- **Stochastic Simulation (Monte Carlo)** — Applied to investment returns (log-normal distribution), medical inflation (normal distribution), and longevity risk (Gompertz-based distribution), ensuring wealth planning accounts for uncertainty and variability.
+*Note: 10,000+ simulations per user ensure robust wealth planning under uncertainty.*
+- **Present Value & Discounting Models** — Actuarial discounting principles are embedded to evaluate whether projected wealth can sustain future healthcare and retirement expenses:
+-- **Net Present Value (NPV)** of lifetime healthcare costs
+-- **Discounted Cash Flow (DCF)** for retirement income streams
+-- **Real vs. nominal** return calculations with inflation adjustments  
+- **Risk Pooling & Classification Concepts** — Borrowing from insurance underwriting, the app segments users into health/wealth profiles, tailoring recommendations for preventive care, lifestyle modifications, financial resilience strategies, and insurance coverage optimization.
 
 ## ⌛ Summary of Main Lifespan Impact Factors
 <img src="assets/JeffreyWooHW0.PNG" alt="JeffreyWooHW0" width="1200" height="2800" />
+
+## 📚 Data Sources
+| Source	| Data Used | 
+|---------|----------|
+| China Life Insurance Mortality Table (CL2023)	| Baseline mortality rates| 
+| National Health Commission of China (2025)	| Life expectancy: 79.25 years| 
+| National Bureau of Statistics of China (2024)	| Gender-specific longevity| 
+| World Health Organization	| Dietary and lifestyle risk factors| 
+| Society of Actuaries (SOA)	| Relative risk methodology| 
 
 ## ⭐ Finance Skills Strengthened
 - Full‑stack architecture for AI‑driven financial applications.  
