@@ -42,9 +42,9 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 - **Stochastic Simulation (Monte Carlo)** — Applied to investment returns (log-normal distribution), medical inflation (normal distribution), and longevity risk (Gompertz-based distribution), ensuring wealth planning accounts for uncertainty and variability.
 *Note: 10,000+ simulations per user ensure robust wealth planning under uncertainty.*
 - **Present Value & Discounting Models** — Actuarial discounting principles are embedded to evaluate whether projected wealth can sustain future healthcare and retirement expenses:
--- **Net Present Value (NPV)** of lifetime healthcare costs
--- **Discounted Cash Flow (DCF)** for retirement income streams
--- **Real vs. nominal** return calculations with inflation adjustments  
+   - **Net Present Value (NPV)** of lifetime healthcare costs   
+   - **Discounted Cash Flow (DCF)** for retirement income streams   
+   - **Real vs. nominal** return calculations with inflation adjustments  
 - **Risk Pooling & Classification Concepts** — Borrowing from insurance underwriting, the app segments users into health/wealth profiles, tailoring recommendations for preventive care, lifestyle modifications, financial resilience strategies, and insurance coverage optimization.
 
 ## ⌛ Summary of Main Lifespan Impact Factors
