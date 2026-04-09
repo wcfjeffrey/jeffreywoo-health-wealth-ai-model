@@ -1,5 +1,7 @@
 
 import React, { useMemo } from 'react';
+import { motion } from 'motion/react';
+import { TrendingUp, TrendingDown, Clock, Shield, Percent, Heart, Activity, Brain, Globe, Lightbulb } from 'lucide-react';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, RadarChart, PolarGrid, PolarAngleAxis, Radar, ReferenceLine, BarChart, Bar, Cell, Legend } from 'recharts';
 import { AnalysisResults, UserInput } from '../types';
 import { ANNUAL_RETURN_RATE } from '../constants';
@@ -43,41 +45,74 @@ const Dashboard: React.FC<Props> = ({ results, input }) => {
   ];
 
   const healthRadar = [
-    { subject: 'Diet/Habits', A: input.dietScore * 10, fullMark: 100 },
-    { subject: 'Environment', A: input.airQualityRating * 20, fullMark: 100 },
-    { subject: 'Socio-Econ', A: 100 - (input.stressLevel * 10), fullMark: 100 },
-    { subject: 'Vices', A: (input.smoker ? 0 : 50) + (input.recreationalDrugUse === 'None' ? 50 : 20), fullMark: 100 },
-    { subject: 'Activity', A: Math.min(100, input.exerciseHours * 15), fullMark: 100 },
+    { subject: 'Cardio', A: results.healthRiskBreakdown.cardiovascular, fullMark: 100 },
+    { subject: 'Metabolic', A: results.healthRiskBreakdown.metabolic, fullMark: 100 },
+    { subject: 'Psych', A: results.healthRiskBreakdown.psychological, fullMark: 100 },
+    { subject: 'Env', A: results.healthRiskBreakdown.environmental, fullMark: 100 },
+    { subject: 'Lifestyle', A: 100 - (input.stressLevel * 10), fullMark: 100 },
   ];
 
   return (
     <div className="space-y-6">
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
-          <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Est. Lifespan</p>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.1 }}
+          className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100"
+        >
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Est. Lifespan</p>
+            <Clock className="w-3 h-3 text-slate-300" />
+          </div>
           <h4 className="text-2xl font-black text-slate-900">{results.baselineLongevity.toFixed(1)} <span className="text-xs font-normal text-slate-400">YRS</span></h4>
           <div className={`text-[10px] font-bold mt-1 inline-flex items-center px-2 py-0.5 rounded ${results.estimatedLongevityShift >= 0 ? 'bg-emerald-50 text-emerald-600' : 'bg-rose-50 text-rose-600'}`}>
-            {results.estimatedLongevityShift >= 0 ? '↑' : '↓'} {Math.abs(results.estimatedLongevityShift).toFixed(1)} vs baseline
+            {results.estimatedLongevityShift >= 0 ? <TrendingUp className="w-2.5 h-2.5 mr-1" /> : <TrendingDown className="w-2.5 h-2.5 mr-1" />}
+            {Math.abs(results.estimatedLongevityShift).toFixed(1)} vs baseline
           </div>
-        </div>
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
-          <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Runway Age</p>
+        </motion.div>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100"
+        >
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Runway Age</p>
+            <TrendingUp className="w-3 h-3 text-slate-300" />
+          </div>
           <h4 className="text-2xl font-black text-slate-900">{results.financialRunwayAge.toFixed(1)} <span className="text-xs font-normal text-slate-400">AGE</span></h4>
           <p className={`text-[10px] font-bold mt-1 ${results.financialRunwayAge < results.baselineLongevity ? 'text-rose-500' : 'text-emerald-600'}`}>
             {results.financialRunwayAge < results.baselineLongevity ? '⚠️ Longevity Gap' : '✓ Sufficient'}
           </p>
-        </div>
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
-          <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Insurance Gap</p>
+        </motion.div>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3 }}
+          className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100"
+        >
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Insurance Gap</p>
+            <Shield className="w-3 h-3 text-slate-300" />
+          </div>
           <h4 className="text-2xl font-black text-slate-900">${(results.insuranceGap / 1000).toFixed(0)}k</h4>
           <p className="text-[10px] mt-1 text-slate-500">{results.insuranceGap > 0 ? 'Unmet coverage target' : 'Adequately covered'}</p>
-        </div>
-        <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
-          <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Retirement Prob.</p>
+        </motion.div>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100"
+        >
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Retirement Prob.</p>
+            <Percent className="w-3 h-3 text-slate-300" />
+          </div>
           <h4 className="text-2xl font-black text-slate-900">{(results.probabilityOfSurvivalToRetirement * 100).toFixed(0)}%</h4>
           <p className="text-[10px] mt-1 text-slate-500">Survival to target age</p>
-        </div>
+        </motion.div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -159,36 +194,40 @@ const Dashboard: React.FC<Props> = ({ results, input }) => {
            <h3 className="text-sm font-bold text-slate-800 uppercase tracking-widest mb-6">Vulnerability Assessment</h3>
            <div className="grid grid-cols-2 gap-6">
               {[
-                { label: 'Cardiovascular', value: results.healthRiskBreakdown.cardiovascular, icon: '❤️' },
-                { label: 'Metabolic', value: results.healthRiskBreakdown.metabolic, icon: '🧪' },
-                { label: 'Psychological', value: results.healthRiskBreakdown.psychological, icon: '🧠' },
-                { label: 'Environmental', value: results.healthRiskBreakdown.environmental, icon: '🌍' },
+                { label: 'Cardiovascular', value: results.healthRiskBreakdown.cardiovascular, icon: <Heart className="w-3.5 h-3.5" /> },
+                { label: 'Metabolic', value: results.healthRiskBreakdown.metabolic, icon: <Activity className="w-3.5 h-3.5" /> },
+                { label: 'Psychological', value: results.healthRiskBreakdown.psychological, icon: <Brain className="w-3.5 h-3.5" /> },
+                { label: 'Environmental', value: results.healthRiskBreakdown.environmental, icon: <Globe className="w-3.5 h-3.5" /> },
               ].map((risk) => (
                 <div key={risk.label} className="space-y-2">
                   <div className="flex justify-between items-center">
-                    <span className="text-xs font-bold text-slate-700 flex items-center gap-1">
-                      <span>{risk.icon}</span> {risk.label}
+                    <span className="text-xs font-bold text-slate-700 flex items-center gap-2">
+                      <span className="text-slate-400">{risk.icon}</span> {risk.label}
                     </span>
                     <span className={`text-[10px] font-bold ${risk.value > 60 ? 'text-rose-500' : 'text-emerald-500'}`}>
                       {risk.value}% Risk
                     </span>
                   </div>
                   <div className="w-full h-1.5 bg-slate-100 rounded-full overflow-hidden">
-                    <div 
-                      className={`h-full transition-all duration-1000 ${risk.value > 60 ? 'bg-rose-500' : 'bg-emerald-500'}`} 
-                      style={{ width: `${risk.value}%` }}
+                    <motion.div 
+                      initial={{ width: 0 }}
+                      animate={{ width: `${risk.value}%` }}
+                      transition={{ duration: 1, ease: "easeOut" }}
+                      className={`h-full ${risk.value > 60 ? 'bg-rose-500' : 'bg-emerald-500'}`} 
                     />
                   </div>
                 </div>
               ))}
            </div>
            <div className="mt-8 p-4 bg-indigo-50/50 rounded-xl border border-indigo-100">
-              <p className="text-[11px] text-indigo-700 leading-relaxed font-medium">
-                {/* Fixed arithmetic operation error by casting entries to [string, number][] to ensure values are treated as numbers */}
-                <strong>Strategy Insight:</strong> Your greatest longevity lever is currently 
-                <span className="font-black"> {
-                  (Object.entries(results.healthRiskBreakdown) as [string, number][]).sort((a,b) => b[1] - a[1])[0][0].toUpperCase()
-                } risk mitigation</span>. Small adjustments in this quadrant yield a non-linear positive impact on both quality of life and total lifespan.
+              <p className="text-[11px] text-indigo-700 leading-relaxed font-medium flex items-start gap-3">
+                <Lightbulb className="w-4 h-4 shrink-0 mt-0.5" />
+                <span>
+                  <strong>Strategy Insight:</strong> Your greatest longevity lever is currently 
+                  <span className="font-black"> {
+                    (Object.entries(results.healthRiskBreakdown) as [string, number][]).sort((a,b) => b[1] - a[1])[0][0].toUpperCase()
+                  } risk mitigation</span>. Small adjustments in this quadrant yield a non-linear positive impact on both quality of life and total lifespan.
+                </span>
               </p>
            </div>
         </div>

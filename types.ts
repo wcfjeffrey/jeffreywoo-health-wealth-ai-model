@@ -35,6 +35,7 @@ export type DietaryPattern =
   | 'Flexitarian' 
   | 'Carnivore' 
   | 'Whole30' 
+  | 'No Preference'
   | 'Other';
 
 export interface InsuranceCoverage {
@@ -154,4 +155,18 @@ export interface Recommendation {
   title: string;
   description: string;
   impact: string;
+}
+
+export interface RiskMultiplier {
+  factor: string;
+  multiplier: number;
+  description: string;
+}
+
+export interface RiskFactorWeights {
+  biomarkers: number;
+  lifestyle: number;
+  genetics: number;
+  environment: number;
+  psychological: number;
 }

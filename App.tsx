@@ -1,5 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
+import { Sparkles, ShieldCheck, Activity, Brain, Heart, Wallet, ChevronRight, RefreshCw } from 'lucide-react';
 import { UserInput, Gender, Ethnicity, Education, AnalysisResults, Recommendation } from './types';
 import { runFullAnalysis } from './services/calculator';
 import { getAIRecommendations } from './services/geminiService';
@@ -112,7 +114,13 @@ const App: React.FC = () => {
       <header className="bg-white border-b border-slate-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-indigo-600 rounded-xl shadow-lg shadow-indigo-100 flex items-center justify-center text-white font-black text-xl">JW</div>
+            <motion.div 
+              initial={{ rotate: -10, scale: 0.9 }}
+              animate={{ rotate: 0, scale: 1 }}
+              className="w-10 h-10 bg-indigo-600 rounded-xl shadow-lg shadow-indigo-100 flex items-center justify-center text-white font-black text-xl"
+            >
+              JW
+            </motion.div>
             <div>
               <h1 className="text-lg font-black text-slate-900 leading-none">JeffreyWoo Health & Wealth</h1>
               <p className="text-[9px] text-slate-400 uppercase tracking-widest font-bold text-nowrap">Integrated Impact Planner</p>
@@ -124,9 +132,12 @@ const App: React.FC = () => {
             className="group px-5 py-2.5 bg-slate-900 hover:bg-indigo-600 text-white rounded-xl text-xs font-bold transition-all disabled:opacity-50 flex items-center gap-2 shadow-sm"
           >
             {loadingAI ? (
-              <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
+              <RefreshCw className="w-4 h-4 animate-spin" />
             ) : (
-              <>✨ <span className="hidden sm:inline">AI Deep Insights</span></>
+              <>
+                <Sparkles className="w-4 h-4 text-amber-400" />
+                <span className="hidden sm:inline">AI Deep Insights</span>
+              </>
             )}
           </button>
         </div>
@@ -138,15 +149,21 @@ const App: React.FC = () => {
           <div className="lg:col-span-4">
             <div className="sticky top-24 space-y-6">
               <InputForm data={userInput} onChange={setUserInput} />
-              <div className="p-4 bg-white rounded-2xl border border-slate-100 shadow-sm flex items-start gap-4">
-                <div className="p-2 bg-indigo-50 text-indigo-600 rounded-lg text-lg">🛡️</div>
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="p-4 bg-white rounded-2xl border border-slate-100 shadow-sm flex items-start gap-4"
+              >
+                <div className="p-2 bg-indigo-50 text-indigo-600 rounded-lg">
+                  <ShieldCheck className="w-5 h-5" />
+                </div>
                 <div>
                   <h5 className="text-xs font-bold text-slate-800 uppercase mb-1">Professional Actuarial Basis</h5>
                   <p className="text-[10px] text-slate-400 leading-normal">
                     Proprietary integration of life-table mortality risk models and Monte Carlo wealth simulations.
                   </p>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
 
@@ -164,27 +181,41 @@ const App: React.FC = () => {
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-                {recommendations.length > 0 ? (
-                  recommendations.map((rec, i) => (
-                    <div key={i} className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
-                      <div className="flex items-center justify-between mb-4">
-                        <span className={`px-2.5 py-1 text-[9px] font-black rounded-full uppercase tracking-widest ${
-                          rec.category === 'Health' ? 'bg-emerald-50 text-emerald-600' : 
-                          rec.category === 'Environment' ? 'bg-amber-50 text-amber-600' : 'bg-indigo-50 text-indigo-600'
-                        }`}>
-                          {rec.category}
-                        </span>
-                        <span className="text-xs font-bold text-slate-900 bg-slate-50 px-2 py-1 rounded-lg">{rec.impact}</span>
-                      </div>
-                      <h4 className="font-bold text-slate-900 mb-2 leading-snug">{rec.title}</h4>
-                      <p className="text-xs text-slate-500 leading-relaxed mb-4">{rec.description}</p>
-                    </div>
-                  ))
-                ) : !loadingAI && (
-                  <div className="col-span-2 py-12 text-center border-2 border-dashed border-slate-200 rounded-3xl">
-                    <p className="text-slate-400 text-sm font-medium">Click "AI Deep Insights" to generate targeted interventions.</p>
-                  </div>
-                )}
+                <AnimatePresence mode="popLayout">
+                  {recommendations.length > 0 ? (
+                    recommendations.map((rec, i) => (
+                      <motion.div 
+                        key={i}
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: i * 0.1 }}
+                        className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow"
+                      >
+                        <div className="flex items-center justify-between mb-4">
+                          <span className={`px-2.5 py-1 text-[9px] font-black rounded-full uppercase tracking-widest flex items-center gap-1.5 ${
+                            rec.category === 'Health' ? 'bg-emerald-50 text-emerald-600' : 
+                            rec.category === 'Environment' ? 'bg-amber-50 text-amber-600' : 'bg-indigo-50 text-indigo-600'
+                          }`}>
+                            {rec.category === 'Health' ? <Activity className="w-3 h-3" /> : 
+                             rec.category === 'Environment' ? <Heart className="w-3 h-3" /> : <Wallet className="w-3 h-3" />}
+                            {rec.category}
+                          </span>
+                          <span className="text-xs font-bold text-slate-900 bg-slate-50 px-2 py-1 rounded-lg">{rec.impact}</span>
+                        </div>
+                        <h4 className="font-bold text-slate-900 mb-2 leading-snug">{rec.title}</h4>
+                        <p className="text-xs text-slate-500 leading-relaxed mb-4">{rec.description}</p>
+                      </motion.div>
+                    ))
+                  ) : !loadingAI && (
+                    <motion.div 
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      className="col-span-2 py-12 text-center border-2 border-dashed border-slate-200 rounded-3xl"
+                    >
+                      <p className="text-slate-400 text-sm font-medium">Click "AI Deep Insights" to generate targeted interventions.</p>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
 
                 {loadingAI && Array.from({ length: 4 }).map((_, i) => (
                   <div key={i} className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm animate-pulse h-40">

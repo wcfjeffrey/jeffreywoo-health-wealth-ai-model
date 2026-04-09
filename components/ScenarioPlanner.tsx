@@ -1,5 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
+import { motion } from 'motion/react';
+import { Play, RotateCcw, Download, Heart, Wallet, TrendingUp, TrendingDown } from 'lucide-react';
 import { UserInput, AnalysisResults } from '../types';
 import { runFullAnalysis } from '../services/calculator';
 
@@ -66,8 +68,14 @@ KEY SIMULATION ADJUSTMENTS:
             <p className="text-indigo-300 text-xs font-medium">Real-time compounded actuarial impact analysis.</p>
           </div>
           <div className="flex gap-3">
-            <button onClick={handleReset} className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-xl text-[10px] font-black uppercase tracking-widest transition-colors">Reset</button>
-            <button onClick={exportReport} className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-[10px] font-black uppercase tracking-widest transition-colors shadow-lg shadow-indigo-900/50">Export Report</button>
+            <button onClick={handleReset} className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-xl text-[10px] font-black uppercase tracking-widest transition-colors flex items-center gap-2">
+              <RotateCcw className="w-3 h-3" />
+              Reset
+            </button>
+            <button onClick={exportReport} className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-[10px] font-black uppercase tracking-widest transition-colors shadow-lg shadow-indigo-900/50 flex items-center gap-2">
+              <Download className="w-3 h-3" />
+              Export Report
+            </button>
           </div>
         </div>
 
@@ -127,14 +135,20 @@ KEY SIMULATION ADJUSTMENTS:
 
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-slate-800/50 p-6 rounded-2xl border border-white/5 flex flex-col justify-center">
-              <span className="text-[10px] font-black uppercase text-slate-500 mb-2">Longevity Impact</span>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-[10px] font-black uppercase text-slate-500">Longevity Impact</span>
+                <Heart className="w-3 h-3 text-slate-500" />
+              </div>
               <div className={`text-3xl font-black ${longevityDelta >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>
                 {longevityDelta >= 0 ? '+' : ''}{longevityDelta.toFixed(1)} <span className="text-sm font-normal text-slate-400">Yrs</span>
               </div>
               <p className="text-[9px] text-slate-500 mt-2 leading-tight">Projected shift in physiological end-point.</p>
             </div>
             <div className="bg-slate-800/50 p-6 rounded-2xl border border-white/5 flex flex-col justify-center">
-              <span className="text-[10px] font-black uppercase text-slate-500 mb-2">Wealth Impact</span>
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-[10px] font-black uppercase text-slate-500">Wealth Impact</span>
+                <Wallet className="w-3 h-3 text-slate-500" />
+              </div>
               <div className={`text-2xl font-black ${wealthDelta >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>
                 {wealthDelta >= 0 ? '+' : ''}${(Math.abs(wealthDelta) / 1000).toFixed(0)}k
               </div>

@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { motion } from 'motion/react';
+import { AlertCircle, Info, Activity, Wallet, Globe } from 'lucide-react';
 import { AnalysisResults, UserInput } from '../types';
 
 interface Props {
@@ -101,8 +103,19 @@ const ImprovementTips: React.FC<Props> = ({ results, input }) => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {tips.map((tip, i) => (
-          <div key={i} className="p-4 bg-white rounded-xl border border-slate-100 shadow-sm flex gap-4 items-start hover:border-indigo-200 transition-colors">
-            <div className={`mt-1.5 w-2 h-2 rounded-full shrink-0 ${tip.priority === 'High' ? 'bg-rose-500' : 'bg-amber-500'}`} />
+          <motion.div 
+            key={i} 
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: i * 0.1 }}
+            className="p-4 bg-white rounded-xl border border-slate-100 shadow-sm flex gap-4 items-start hover:border-indigo-200 transition-colors"
+          >
+            <div className={`mt-1 w-8 h-8 rounded-lg shrink-0 flex items-center justify-center ${
+              tip.priority === 'High' ? 'bg-rose-50 text-rose-500' : 'bg-amber-50 text-amber-500'
+            }`}>
+              {tip.category === 'Health' ? <Activity className="w-4 h-4" /> : 
+               tip.category === 'Wealth' ? <Wallet className="w-4 h-4" /> : <Globe className="w-4 h-4" />}
+            </div>
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-[10px] font-black uppercase text-slate-400">{tip.category}</span>
@@ -113,7 +126,7 @@ const ImprovementTips: React.FC<Props> = ({ results, input }) => {
               <h5 className="text-xs font-bold text-slate-900 mb-1">{tip.title}</h5>
               <p className="text-[11px] text-slate-500 leading-relaxed">{tip.text}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
