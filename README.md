@@ -59,7 +59,8 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 | Society of Actuaries (SOA) (2020-2023)	| Relative risk methodology for mortality multipliers; Valuation Basic Table (VBT) framework; risk factor quantification| 
 | World Health Organization (WHO) (2024-2025)	| Dietary pattern, lifestyle and behavioral risk factors; Air quality guidelines (AQI conversion); Pollution risk multipliers; Global life expectancy benchmarks (post-COVID decline to 71.4 years)| 
 | Shanghai Composite Index / CSI 300 (1990-2025 / 2005-2025)	| Historical market returns for China| 
-| National Bureau of Statistics of China (NBS) (2000-2024)	| Historical CPI inflation data (avg. ~2.3%)| 	 
+| National Bureau of Statistics of China (NBS) (2000-2024)	| Historical CPI inflation data (avg. ~2.3%)| 	
+| NBS / Chinese Government Target | Forward-looking inflation assumption for planning (2.0% used in app calculations)| 	
 | China Health and Nutrition Survey (CHNS) (multiple survey years)	|Dietary pattern modifiers for Chinese population|
 | Chinese Government Policy (2024) (2025-2035 implementation) |Statutory retirement age extension|	
 
