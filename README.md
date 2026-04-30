@@ -108,6 +108,15 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 
 ## 📐Data Flow and Logic Sequence
 
+The following diagram illustrates how the system transforms personal data into integrated health and wealth projections — from data input through Gompertz-Makeham mortality modeling, Markov health state transitions, Monte Carlo simulations, Gemini AI analysis, and NPV/DCF wealth planning — applying the actuarial models described above at each stage.
+
+> **How to read this diagram:** The flow follows 5 phases:
+> 1. **Data Input** — Demographics, lifestyle, medical, environmental, financial
+> 2. **Actuarial Analysis** — Gompertz-Makeham, life tables, Markov, Monte Carlo
+> 3. **AI Integration** — Gemini API risk interpretation, health score, lifespan impact
+> 4. **Wealth Planning** — NPV, DCF, retirement projection, investment simulation
+> 5. **Output Dashboard** — Health radar, wealth chart, scenarios, PDF export
+
 ```mermaid
 flowchart TD
     subgraph PHASE1["Phase 1: Data Input"]
