@@ -66,46 +66,6 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 
 *Note: The SOA VBT framework and WHO risk factors inform the relative risk calculations, but full table imports (e.g., CSO, VBT detailed tables) are planned for future releases. All values are calibrated for Mainland China users and are updated as of 2025-2026.*
 
-## ⭐ Finance Skills Strengthened
-- Full‑stack architecture for AI‑driven financial applications.  
-- Secure handling of sensitive financial & health data, aligned with GDPR/PDPO compliance & audit standards.  
-- AI model integration into financial workflows (budgeting, retirement planning & risk management).    
-- File parsing & structured data transformation for accounting reports, actuarial tables & financial statements.  
-- Interactive dashboards with React (TypeScript + Vite) to support scenario‑based financial simulations & wealth projections.
-
-## 🤖 Tech Stack
-- **Language** — TypeScript, HTML  
-- **Framework** — React (with Vite as the build tool)  
-- **UI** — Standard React components, styled via TSX
-- **Runtime** — Node.js
-
-## 📦 Getting Started
-1. Enter your personal data — demographics, lifestyle habits, medical/family history, environment, socio-economic, and financial details.  
-2. Let **JeffreyWoo Health & Wealth** analyze your profile using professional actuarial models, AI/ML, and financial simulations.  
-3. Explore your personalized dashboards — health risk radar, wealth projections, and scenario simulations.  
-4. Review AI-powered recommendations for healthier habits and smarter financial planning.  
-5. Export your insights as a PDF report to share with advisors or keep for personal tracking.
-
-## ⚙️ Run Locally
-
-**Prerequisites:**  Node.js
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) file after you create [.env.local](.env.local) file
-3. Run the app:
-   `npm run dev`
-
-## 📋 Sample
-
-<img src="assets/JeffreyWooHW1.png" alt="JeffreyWooHW1" width="1200" height="2800" />
-<img src="assets/JeffreyWooHW2.PNG" alt="JeffreyWooHW2" width="1200" height="900" />
-<img src="assets/JeffreyWooHW3.PNG" alt="JeffreyWooHW3" width="1200" height="900" />
-<img src="assets/JeffreyWooHW4.PNG" alt="JeffreyWooHW4" width="1200" height="900" />
-<img src="assets/JeffreyWooHW5.PNG" alt="JeffreyWooHW5" width="1200" height="900" />
-<img src="assets/JeffreyWooHW6.PNG" alt="JeffreyWooHW6" width="1200" height="900" />
-<img src="assets/JeffreyWooHW7.PNG" alt="JeffreyWooHW7" width="1200" height="900" />
-
 ## 📐Data Flow and Logic Sequence
 
 The following diagram illustrates how the system transforms personal data into integrated health and wealth projections — from data input through Gompertz-Makeham mortality modeling, Markov health state transitions, Monte Carlo simulations, Gemini AI analysis, and NPV/DCF wealth planning — applying the actuarial models described above at each stage.
@@ -164,6 +124,46 @@ flowchart TD
     C4 --> E1
     D5 --> E2
 ```
+
+## ⭐ Finance Skills Strengthened
+- Full‑stack architecture for AI‑driven financial applications.  
+- Secure handling of sensitive financial & health data, aligned with GDPR/PDPO compliance & audit standards.  
+- AI model integration into financial workflows (budgeting, retirement planning & risk management).    
+- File parsing & structured data transformation for accounting reports, actuarial tables & financial statements.  
+- Interactive dashboards with React (TypeScript + Vite) to support scenario‑based financial simulations & wealth projections.
+
+## 🤖 Tech Stack
+- **Language** — TypeScript, HTML  
+- **Framework** — React (with Vite as the build tool)  
+- **UI** — Standard React components, styled via TSX
+- **Runtime** — Node.js
+
+## 📦 Getting Started
+1. Enter your personal data — demographics, lifestyle habits, medical/family history, environment, socio-economic, and financial details.  
+2. Let **JeffreyWoo Health & Wealth** analyze your profile using professional actuarial models, AI/ML, and financial simulations.  
+3. Explore your personalized dashboards — health risk radar, wealth projections, and scenario simulations.  
+4. Review AI-powered recommendations for healthier habits and smarter financial planning.  
+5. Export your insights as a PDF report to share with advisors or keep for personal tracking.
+
+## ⚙️ Run Locally
+
+**Prerequisites:**  Node.js
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) file after you create [.env.local](.env.local) file
+3. Run the app:
+   `npm run dev`
+
+## 📋 Sample
+
+<img src="assets/JeffreyWooHW1.png" alt="JeffreyWooHW1" width="1200" height="2800" />
+<img src="assets/JeffreyWooHW2.PNG" alt="JeffreyWooHW2" width="1200" height="900" />
+<img src="assets/JeffreyWooHW3.PNG" alt="JeffreyWooHW3" width="1200" height="900" />
+<img src="assets/JeffreyWooHW4.PNG" alt="JeffreyWooHW4" width="1200" height="900" />
+<img src="assets/JeffreyWooHW5.PNG" alt="JeffreyWooHW5" width="1200" height="900" />
+<img src="assets/JeffreyWooHW6.PNG" alt="JeffreyWooHW6" width="1200" height="900" />
+<img src="assets/JeffreyWooHW7.PNG" alt="JeffreyWooHW7" width="1200" height="900" />
 
 ## ⚖️ Disclaimer
 **JeffreyWoo Health & Wealth** provides AI‑driven insights for informational, educational, and demonstration purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on actuarial models, medical research, socio‑economic data, and financial planning assumptions.
