@@ -106,6 +106,56 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 <img src="assets/JeffreyWooHW6.PNG" alt="JeffreyWooHW6" width="1200" height="900" />
 <img src="assets/JeffreyWooHW7.PNG" alt="JeffreyWooHW7" width="1200" height="900" />
 
+## 📐Data Flow and Logic Sequence
+
+```mermaid
+flowchart TD
+    subgraph PHASE1["Phase 1: Data Input"]
+        direction TB
+        A1["Enter Personal Data"] --> A2["Demographics Age/Gender/Location"]
+        A1 --> A3["Lifestyle Smoking/Exercise/Diet"]
+        A1 --> A4["Medical History/Family History"]
+        A1 --> A5["Environmental Factors"]
+        A1 --> A6["Financial Details Income/Savings"]
+    end
+
+    subgraph PHASE2["Phase 2: Actuarial Analysis"]
+        direction TB
+        B1["Gompertz-Makeham Mortality Model"] --> B2["Life Table Calculation"]
+        B2 --> B3["Markov Health State Model"]
+        B3 --> B4["Stochastic Monte Carlo Simulation"]
+        B4 --> B5["10,000+ Simulations per User"]
+    end
+
+    subgraph PHASE3["Phase 3: AI Integration"]
+        direction TB
+        C1["Gemini API Analysis"] --> C2["Interpret Risk Factors"]
+        C2 --> C3["Generate Health Risk Score"]
+        C3 --> C4["Lifespan Impact Estimate"]
+    end
+
+    subgraph PHASE4["Phase 4: Wealth Planning"]
+        direction TB
+        D1["Net Present Value Calculation"] --> D2["Discounted Cash Flow Analysis"]
+        D2 --> D3["Retirement Projection"]
+        D3 --> D4["Investment Return Simulation Log-normal"]
+        D4 --> D5["Inflation Adjustment 2.0%"]
+    end
+
+    subgraph PHASE5["Phase 5: Output Dashboard"]
+        direction TB
+        E1["Health Risk Radar"] --> E2["Wealth Projection Chart"]
+        E2 --> E3["Dual Impact Scenario Simulation"]
+        E3 --> E4["Personalized Recommendations"]
+        E4 --> E5["Export PDF Report"]
+    end
+
+    A6 --> D1
+    B5 --> C1
+    C4 --> E1
+    D5 --> E2
+```
+
 ## ⚖️ Disclaimer
 **JeffreyWoo Health & Wealth** provides AI‑driven insights for informational, educational, and demonstration purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on actuarial models, medical research, socio‑economic data, and financial planning assumptions.
 
