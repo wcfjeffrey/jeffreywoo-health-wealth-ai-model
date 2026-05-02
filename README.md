@@ -165,7 +165,7 @@ flowchart TD
 <img src="assets/JeffreyWooHW6.PNG" alt="JeffreyWooHW6" width="1200" height="900" />
 <img src="assets/JeffreyWooHW7.PNG" alt="JeffreyWooHW7" width="1200" height="900" />
 
-## References
+## 📚 References
 
 **1. Actuarial & Statistical Models**
 
