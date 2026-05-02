@@ -55,7 +55,7 @@ This app integrates actuarial science models into AI-driven health and wealth pl
 |---------|----------|
 | China Life Insurance Mortality Table (2023)	| Baseline mortality rates; 10-year mortality probabilities by age; Age-specific remaining life expectancy| 
 | National Health Commission of China (2025)	| Average life expectancy: 79.25 years (both sexes combined)| 
-| National Bureau of Statistics of China (2024)	| Gender-specific longevity: Male ~77.5 years, Female ~81.5 years| 
+| National Bureau of Statistics of China (2024)	| Gender-specific longevity: Male ~75.37 years, Female ~80.88 years| 
 | Society of Actuaries (SOA) (2020-2023)	| Relative risk methodology for mortality multipliers; Valuation Basic Table (VBT) framework; risk factor quantification| 
 | World Health Organization (WHO) (2024-2025)	| Dietary pattern, lifestyle and behavioral risk factors; Air quality guidelines (AQI conversion); Pollution risk multipliers; Global life expectancy benchmarks (post-COVID decline to 71.4 years)| 
 | Shanghai Composite Index / CSI 300 (1990-2025 / 2005-2025)	| Historical market returns for China| 
@@ -192,7 +192,7 @@ flowchart TD
 
 - [National Health Commission of the People's Republic of China. (2024). 2024 China Health Statistics Yearbook. NHC.](https://www.nhc.gov.cn/mohwsbwstjxxzx/tjtjnj/202601/4c453cf4278941ab8465846d1dc90e08/files/%E7%BB%88-2024%E4%B8%AD%E5%9B%BD%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E7%BB%9F%E8%AE%A1%E5%B9%B4%E9%89%B4.pdf)
 
-**National Bureau of Statistics of China (2024) (Gender-specific longevity: Male ~77.5 years, Female ~81.5 years)**
+**National Bureau of Statistics of China (2024) (Gender-specific longevity: Male ~75.37 years, Female ~80.88 years)**
 
 - [National Bureau of Statistics of China. (2024). China Statistical Yearbook 2024. China Statistics Press.](https://www.stats.gov.cn/sj/ndsj/2024/indexeh.htm)
 
