@@ -13,7 +13,7 @@ export const calculateLifeExpectancy = (input: UserInput): number => {
     const relativeRisk = calculateRelativeRisk(input);
     
     // Start from baseline life expectancy from WHO/SOA
-    const baselineLE = (BASELINE_LONGEVITY as any)[gender] || 78;
+    const baselineLE = (BASELINE_LONGEVITY as any)[gender] || 77.93;
     
     // Apply relative risk to adjust hazard rate (Gompertz approximation)
     // Adjusted LE = Baseline LE * (1 - (RR - 1) * 0.5) for moderate adjustments
