@@ -165,7 +165,98 @@ flowchart TD
 <img src="assets/JeffreyWooHW6.PNG" alt="JeffreyWooHW6" width="1200" height="900" />
 <img src="assets/JeffreyWooHW7.PNG" alt="JeffreyWooHW7" width="1200" height="900" />
 
+## References
+
+**1. Actuarial & Statistical Models**
+
+**Gompertz-Makeham Law of Mortality (Age-dependent mortality rate modeling)**
+
+- [Gompertz, B. (1825). On the Nature of the Function Expressive of the Law of Human Mortality, and on a New Mode of Determining the Value of Life Contingencies. Philosophical Transactions of the Royal Society of London, 115, 513–583.](https://www.jstor.org/stable/pdf/107756.pdf)
+- [Makeham, W. M. (1860). On the Law of Mortality and the Construction of Annuity Tables. The Assurance Magazine, and Journal of the Institute of Actuaries, 8(6), 301–310.](https://www.jstor.org/stable/41134925)
+
+**Markov Health State Models (Health state transitions (healthy → chronic illness → disability → death) to forecast medical costs and healthcare utilization)**
+
+- Schoen, R. (1988). Modeling Multigroup Populations. Plenum Press.
+
+**Stochastic Simulation (Monte Carlo) (for investment returns (log-normal distribution), medical inflation (normal distribution), and longevity risk (Gompertz-based distribution))**
+
+- Metropolis, N., & Ulam, S. (1949). The Monte Carlo Method. Journal of the American Statistical Association, 44(247), 335–341.
+
+**2. Primary Data Sources**
+
+**China Life Insurance Mortality Table (2023) (Baseline mortality rates; 10-year mortality probabilities by age; age-specific remaining life expectancy)**
+
+- China Banking and Insurance Regulatory Commission. (2023). *China Life Insurance Mortality Table (2023-2025)*. CBIRC.
+
+**National Health Commission of China (2025) (Average life expectancy: 79.25 years for both sexes combined)**
+
+- National Health Commission of the People's Republic of China. (2025). 2024 China Health Statistics Yearbook. NHC.
+
+**National Bureau of Statistics of China (2024) (Gender-specific longevity: Male ~77.5 years, Female ~81.5 years)**
+
+- National Bureau of Statistics of China. (2024). China Statistical Yearbook 2024. China Statistics Press.
+
+**Society of Actuaries (SOA) (2020-2023) (Relative risk methodology for mortality multipliers; risk factor quantification)**
+
+- Society of Actuaries. (2020-2023). Valuation Basic Table (VBT) Framework and Relative Risk Methodology.
+
+**World Health Organization (WHO) (2024-2025) (Dietary pattern, lifestyle and behavioral risk factors; Air quality guidelines (AQI conversion); Pollution risk multipliers; Global life expectancy benchmarks (post-COVID decline to 71.4 years))**
+
+- World Health Organization. (2024). Global Health Estimates: Life expectancy and leading causes of death and disability. WHO.
+
+**Shanghai Composite Index / CSI 300 (1990-2025 / 2005-2025) (Historical market returns for China)**
+
+- China Securities Index Co., Ltd. (2025). CSI 300 Index Historical Data.
+
+**National Bureau of Statistics of China (NBS) (2000-2024) - Inflation Data (Historical CPI inflation data (average ~2.3%))**
+
+- National Bureau of Statistics of China. (2024). China Statistical Yearbook (Consumer Price Index Section). China Statistics Press.
+
+**China Health and Nutrition Survey (CHNS) (Dietary pattern modifiers for Chinese population)**
+
+- University of North Carolina at Chapel Hill Carolina Population Center. (Multiple survey years). China Health and Nutrition Survey (CHNS).
+
+**Chinese Government Retirement Age Policy (2024) (Statutory retirement age extension)**
+
+- State Council of the People's Republic of China. (2024). *Plan to Gradually Raise the Statutory Retirement Age (2025-2035 Implementation)*. Government of the PRC.
+
+**3. Financial & Economic Models**
+
+**Present Value & Discounting Models (Net Present Value (NPV) of lifetime healthcare costs; Discounted Cash Flow (DCF) for retirement income streams; real vs. nominal return calculations with inflation adjustments)**
+
+- Brealey, R. A., Myers, S. C., & Allen, F. (2023). Principles of Corporate Finance (14th ed.). McGraw-Hill Education. (Original work published 1981)
+
+**Risk Pooling & Classification Concepts (Health/wealth profile segmentation for tailored recommendations)**
+
+- Vaughan, E. J., & Vaughan, T. M. (2013). Fundamentals of Risk and Insurance (11th ed.). Wiley. (See underwriting & risk classification chapters)
+
+**4. Technology Stack**
+
+**Gemini API (AI Integration for risk interpretation, health risk score generation, and lifespan impact estimation)**
+
+- [Gemini Team, Google. Gemini API.](https://ai.google.dev/gemini-api/docs)
+
+**React (with Vite) & TypeScript (Interactive dashboards for health risk radar, wealth projection charts, scenario simulations, and PDF export)**
+
+- [Biasi, B. Vite: Next Generation Frontend Tooling.](https://vite.dev/)
+- [Facebook Open Source. React: The Library for Web and Native User Interfaces.](https://github.com/facebook/react)
+
+**Node.js (Backend runtime environment for the application)**
+
+- [Node.js Foundation. Node.js® JavaScript Runtime.](https://nodejs.org/)
+
+**5. Regulatory & Compliance Frameworks**
+
+**GDPR (General Data Protection Regulation) (Data privacy and protection compliance for European users)**
+
+- [European Parliament and Council of the European Union. (2016). *Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (General Data Protection Regulation)*. Official Journal of the European Union, L 119, 1–88.](https://gdpr-info.eu/)
+
+**PDPO (Personal Data (Privacy) Ordinance, Hong Kong) (Data privacy compliance for Hong Kong users)**
+
+- [Hong Kong Special Administrative Region. (2012). Personal Data (Privacy) Ordinance (Cap. 486). Government of the Hong Kong SAR.](https://www.pcpd.org.hk/english/data_privacy_law/ordinance_at_a_Glance/ordinance.html)
+
 ## ⚖️ Disclaimer
+
 **JeffreyWoo Health & Wealth** provides AI‑driven insights for informational, educational, and demonstration purposes only. It does not predict exact health outcomes, death dates, or guarantee financial results. All outputs are probabilistic assessments based on actuarial models, medical research, socio‑economic data, and financial planning assumptions.
 
 *Health information:* AI insights are not a substitute for professional medical or actuarial judgment. Always consult a qualified healthcare professional before making health decisions.
