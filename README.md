@@ -176,59 +176,59 @@ flowchart TD
 
 **Markov Health State Models (Health state transitions (healthy → chronic illness → disability → death) to forecast medical costs and healthcare utilization)**
 
-- Schoen, R. (1988). Modeling Multigroup Populations. Plenum Press.
+- [Schoen, R. (1987). Modeling Multigroup Populations. Plenum Press.](https://books.google.com.cu/books?id=mvqbgknUlvUC)
 
 **Stochastic Simulation (Monte Carlo) (for investment returns (log-normal distribution), medical inflation (normal distribution), and longevity risk (Gompertz-based distribution))**
 
-- Metropolis, N., & Ulam, S. (1949). The Monte Carlo Method. Journal of the American Statistical Association, 44(247), 335–341.
+- [Metropolis, N., & Ulam, S. (1949). The Monte Carlo Method. Journal of the American Statistical Association, 44(247), 335–341.](https://web.williams.edu/Mathematics/sjmiller/public_html/105Sp10/handouts/MetropolisUlam_TheMonteCarloMethod.pdf)
 
 **2. Primary Data Sources**
 
-**China Life Insurance Mortality Table (2023) (Baseline mortality rates; 10-year mortality probabilities by age; age-specific remaining life expectancy)**
+**China Life Insurance Mortality Table (2025) (Baseline mortality rates; mortality probabilities by age; age-specific remaining life expectancy)**
 
-- China Banking and Insurance Regulatory Commission. (2023). *China Life Insurance Mortality Table (2023-2025)*. CBIRC.
+- [China Banking and Insurance Regulatory Commission. (2025). *China Life Insurance Mortality Table (2025)*. CBIRC.](https://finance.sina.com.cn/roll/2025-10-30/doc-infvscvq7834163.shtml)
 
-**National Health Commission of China (2025) (Average life expectancy: 79.25 years for both sexes combined)**
+**National Health Commission of China (2024) (Average life expectancy: 79.25 years for both sexes combined)**
 
-- National Health Commission of the People's Republic of China. (2025). 2024 China Health Statistics Yearbook. NHC.
+- [National Health Commission of the People's Republic of China. (2024). 2024 China Health Statistics Yearbook. NHC.](https://www.nhc.gov.cn/mohwsbwstjxxzx/tjtjnj/202601/4c453cf4278941ab8465846d1dc90e08/files/%E7%BB%88-2024%E4%B8%AD%E5%9B%BD%E5%8D%AB%E7%94%9F%E5%81%A5%E5%BA%B7%E7%BB%9F%E8%AE%A1%E5%B9%B4%E9%89%B4.pdf)
 
 **National Bureau of Statistics of China (2024) (Gender-specific longevity: Male ~77.5 years, Female ~81.5 years)**
 
-- National Bureau of Statistics of China. (2024). China Statistical Yearbook 2024. China Statistics Press.
+- [National Bureau of Statistics of China. (2024). China Statistical Yearbook 2024. China Statistics Press.](https://www.stats.gov.cn/sj/ndsj/2024/indexeh.htm)
 
-**Society of Actuaries (SOA) (2020-2023) (Relative risk methodology for mortality multipliers; risk factor quantification)**
+**Society of Actuaries (SOA) (Relative risk methodology for mortality multipliers; risk factor quantification)**
 
-- Society of Actuaries. (2020-2023). Valuation Basic Table (VBT) Framework and Relative Risk Methodology.
+- [Society of Actuaries. Valuation Basic Table (VBT) Framework and Relative Risk Methodology.](https://www.soa.org/research/topics/indiv-val-exp-study-list/)
 
-**World Health Organization (WHO) (2024-2025) (Dietary pattern, lifestyle and behavioral risk factors; Air quality guidelines (AQI conversion); Pollution risk multipliers; Global life expectancy benchmarks (post-COVID decline to 71.4 years))**
+**World Health Organization (WHO) (2024) (Dietary pattern, lifestyle and behavioral risk factors; Air quality guidelines (AQI conversion); Pollution risk multipliers; Global life expectancy benchmarks (post-COVID decline to 71.4 years))**
 
-- World Health Organization. (2024). Global Health Estimates: Life expectancy and leading causes of death and disability. WHO.
+- [World Health Organization. (2024). Global Health Estimates: Life expectancy and leading causes of death and disability. WHO.](https://www.who.int/news/item/24-05-2024-covid-19-eliminated-a-decade-of-progress-in-global-level-of-life-expectancy#:~:text=Between%202019%20and%202021%2C%20global,felt%20unequally%20across%20the%20world.)
 
 **Shanghai Composite Index / CSI 300 (1990-2025 / 2005-2025) (Historical market returns for China)**
 
-- China Securities Index Co., Ltd. (2025). CSI 300 Index Historical Data.
+- [China Securities Index Co., Ltd. (2025). CSI 300 Index Historical Data.](https://tradingeconomics.com/shsz300:ind)
 
 **National Bureau of Statistics of China (NBS) (2000-2024) - Inflation Data (Historical CPI inflation data (average ~2.3%))**
 
-- National Bureau of Statistics of China. (2024). China Statistical Yearbook (Consumer Price Index Section). China Statistics Press.
+- [National Bureau of Statistics of China. (2024). China Statistical Yearbook (Consumer Price Index Section). China Statistics Press.](https://english.www.gov.cn/archive/statistics/202501/09/content_WS677f3418c6d0868f4e8eea16.html)
 
 **China Health and Nutrition Survey (CHNS) (Dietary pattern modifiers for Chinese population)**
 
-- University of North Carolina at Chapel Hill Carolina Population Center. (Multiple survey years). China Health and Nutrition Survey (CHNS).
+- [University of North Carolina at Chapel Hill Carolina Population Center. (Multiple survey years). China Health and Nutrition Survey (CHNS).](https://dataverse.unc.edu/dataverse/chns)
 
-**Chinese Government Retirement Age Policy (2024) (Statutory retirement age extension)**
+**Chinese Government Retirement Age Policy (2025) (Statutory retirement age extension)**
 
-- State Council of the People's Republic of China. (2024). *Plan to Gradually Raise the Statutory Retirement Age (2025-2035 Implementation)*. Government of the PRC.
+- [State Council of the People's Republic of China. (2025). *Plan to Gradually Raise the Statutory Retirement Age (2025-2035 Implementation)*. Government of the PRC.](http://english.scio.gov.cn/chinavoices/2025-01/02/content_117641102.html)
 
 **3. Financial & Economic Models**
 
 **Present Value & Discounting Models (Net Present Value (NPV) of lifetime healthcare costs; Discounted Cash Flow (DCF) for retirement income streams; real vs. nominal return calculations with inflation adjustments)**
 
-- Brealey, R. A., Myers, S. C., & Allen, F. (2023). Principles of Corporate Finance (14th ed.). McGraw-Hill Education. (Original work published 1981)
+- [Brealey, R. A., Myers, S. C., & Allen, F. (2025). Principles of Corporate Finance. McGraw-Hill Education. (Original work published 1981)](https://www.mheducation.com/content/dam/mhe/blog/higher-ed/2025/pdfs/brealey-principles-of-corporate-finance-evergreen-2025.pdf)
 
 **Risk Pooling & Classification Concepts (Health/wealth profile segmentation for tailored recommendations)**
 
-- Vaughan, E. J., & Vaughan, T. M. (2013). Fundamentals of Risk and Insurance (11th ed.). Wiley. (See underwriting & risk classification chapters)
+- [Vaughan, E. J., & Vaughan, T. M. (2008). Fundamentals of Risk and Insurance (10th ed.). Wiley. (See underwriting & risk classification chapters)](https://www.scribd.com/document/554387025/Fundamentals-of-Risk-and-Insurance)
 
 **4. Technology Stack**
 
